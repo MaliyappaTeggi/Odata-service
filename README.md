@@ -1,5 +1,5 @@
 # Odata-service
-Create a Python Virtual Environment using the below commnad
+### Create a Python Virtual Environment using the below commnad
 virtualenv -p python3 venv
 Activate the virtual enviroment 
 source venv/bin/activate
