@@ -3,7 +3,7 @@ import requests
 
 
 class OdataService(object):
-    def serach_entity(self):
+    def search_entity(self):
         search_id = input("Enter the Search parameter id: ")
         url = "https://services.odata.org/TripPinRESTierService/(S(ebte4tgtnsponxq0kowrl2yg))/People('{}')".format(search_id)
         response = requests.get(url)
