@@ -59,7 +59,7 @@ HomeAddress:     null
 
 ### To use the search entity service use the below commnd
 ```
-python odata_service.py serach_entity
+python odata_service.py search_entity
 
 ```
 whenever the user run the above command, In the command prompt its asks the user to add the parameter to serach the entity by ising search entitiy service.
