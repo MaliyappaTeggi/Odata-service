@@ -13,7 +13,8 @@ source venv/bin/activate
 
 ### clone the project
 
-#### Install the requrements file for the necessary libraries to run the application using the below command
+
+#### Inside the project directory Install the requrements file for the necessary libraries to run the application using the below command
 ```
 pip install -r requirements.txt
 ```
