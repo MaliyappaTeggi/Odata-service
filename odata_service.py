@@ -5,14 +5,14 @@ import requests
 class OdataService(object):
     def serach_entity(self):
         search_id = input("Enter the Search parameter id: ")
-        url = "https://services.odata.org/TripPinRESTierService/(S(1edjpi2kilekoqynwth4lojw))/People('{}')".format(search_id)
+        url = "https://services.odata.org/TripPinRESTierService/People('{}')".format(search_id)
         response = requests.get(url)
         data = response.json()
         return data
 
     def filter_entity(self):
         filter_id = input("Enter the filter parameter id: ")
-        url = "https://services.odata.org/TripPinRESTierService/(S(1edjpi2kilekoqynwth4lojw))/People?$filter=FirstName eq '{}'".format(filter_id)
+        url = "https://services.odata.org/TripPinRESTierService/People?$filter=FirstName eq '{}'".format(filter_id)
         response = requests.get(url)
         data = response.json()
         return data
@@ -42,7 +42,7 @@ class OdataService(object):
 		    }
 		    ]
  	     }
-        url = "https://services.odata.org/TripPinRESTierService/(S(1edjpi2kilekoqynwth4lojw))/People"
+        url = "https://services.odata.org/TripPinRESTierService/People"
         response = requests.post(url, json=data)
         data = response.json()
         return data
