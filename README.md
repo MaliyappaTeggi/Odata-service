@@ -52,7 +52,7 @@ Age:             null
 Emails:          ["john@example.com", "john@abc.com"]
 FavoriteFeature: Feature1
 Features:        []
-AddressInfo:     [{"Address": "187 Suffolk Ln.","City": {"Name": "Boise", "CountryRegion": "United States", "Region": "ID" }}]
+AddressInfo:     [{"Address": "187 Suffolk Ln","City": {"Name": "Boise", "CountryRegion": "United States", "Region": "ID" }}]
 HomeAddress:     null
 
 ```
@@ -106,6 +106,6 @@ Below data shows the output of the above searched parameter
 
 ```
 @odata.context: https://services.odata.org/TripPinRESTierService/(S(1edjpi2kilekoqynwth4lojw))/$metadata#People
-value:          [{"UserName": "maliyappa", "FirstName": "Maliyappa", "LastName": "Teggi", "MiddleName": null, "Gender": "Male", "Age": null, "Emails": ["maliyappa@gmail.com", "maliyappa12@example.com"], "FavoriteFeature": "Feature1", "Features": [], "AddressInfo": [{"Address": "14th cross", "City": {"Name": "Bagalkot", "CountryRegion": "India", "Region": "INd"}}], "HomeAddress": null}]
+value:          [{"UserName": "jhonwhyte", "FirstName": "Jhon", "LastName": "Whyte", "MiddleName": null, "Gender": "Male", "Age": null, "Emails": ["john@example.com", "john@abc.com"], "FavoriteFeature": "Feature1", "Features": [], "AddressInfo": [{"Address": "187 Suffolk Ln", "City": {"Name": "Boise", "CountryRegion": "United States", "Region": "ID"}}], "HomeAddress": null}]
 ```
 
