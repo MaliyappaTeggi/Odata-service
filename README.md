@@ -18,7 +18,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### To use the create entity use the below commnd
+### To use the create entity service use the below commnd
 ```
 python odata_service.py create_entity
 
@@ -31,19 +31,12 @@ Below example shows how command interface asks for the user to enter the inputs 
 #### Example1
 
 ##### Enter the username: jhonwhyte
-
 ##### Enter the First Name: Jhon
-
 ##### Enter the last name: Whyte
-
 ##### Enter the emails: john@example.com john@abc.com
-
 ##### Enter the address: 187 Suffolk Ln
-
 ##### Enter the City Name: Boise
-
 ##### Enter the Country Region: United States
-
 ##### Enter the Region: ID
 
 Below data shows the output of the above created entity
@@ -64,7 +57,7 @@ HomeAddress:     null
 
 ```
 
-### To use the search entity use the below commnd
+### To use the search entity service use the below commnd
 ```
 python odata_service.py serach_entity
 
@@ -95,7 +88,7 @@ HomeAddress:     null
 
 ```
 
-### To use the filter entity use the below command
+### To use the filter entity service use the below command
 
 ```
 python odata_service.py filter_entity
